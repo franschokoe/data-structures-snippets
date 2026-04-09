@@ -12,14 +12,17 @@ public class ColorList {
         colors.add("green");
 
         String Element = "red";
-        System.out.print(colors);
+        System.out.print("Before: " + colors + "\n");
         for (int i = 0 ; i < colors.size();i++){
             if(colors.get(i).equals(Element)){
                 colors.remove(Element);
                 i-- ;
             }
         }
-        System.out.print(colors);
+        System.out.print("After: "  + colors);
     }
 
 }
+//output
+//Before: [red, green, red, green]
+//After: [green, green]
