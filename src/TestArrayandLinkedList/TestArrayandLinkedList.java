@@ -9,7 +9,7 @@ public class TestArrayandLinkedList {
         arrayList.add(3);
         arrayList.add(1);
         arrayList.add(4);
-        arrayList.add(0,30);
+        arrayList.add(0,10);
         arrayList.add(3 , 30);
 
         //output
